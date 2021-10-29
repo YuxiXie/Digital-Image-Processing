@@ -36,9 +36,9 @@ Easy. In general you can start immediately after unzipping the package.
 
 Try the following commands in matlab to test the f-g puzzle for some example images. We test them under windows7 and windowsXP operating systems.
 
->>testTrial_weizmann2	%test the 100 weizmann2 2-obj images in the folder imagesWeizmann2/ and give f-measure report.
->>EFG_BPP_UI		%This is a mini interactive fgclassification tool. Open an image, drag a blue mask box and see the segmentation result.
->>testTrial		%Examples of more configurations, including various mask types, non-adaptive initialization, and varied partition generation schemes. 
+>testTrial_weizmann2	%test the 100 weizmann2 2-obj images in the folder imagesWeizmann2/ and give f-measure report.
+>EFG_BPP_UI		%This is a mini interactive fgclassification tool. Open an image, drag a blue mask box and see the segmentation result.
+>testTrial		%Examples of more configurations, including various mask types, non-adaptive initialization, and varied partition generation schemes. 
 
 You can edit the following line in tesTrial.m to change the example image:
 imStart=1;		%try other values between 1 and 20 
